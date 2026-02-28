@@ -11,9 +11,9 @@ CORS(app)
 
 # Database configuration
 DB_CONFIG = {
-    'host': os.getenv('DB_HOST', 'localhost'),
-    'user': os.getenv('DB_USER', 'root'),
-    'password': os.getenv('DB_PASSWORD', ''),
+    'host': os.getenv('DB_HOST', 'database-1.czc40uo2ay01.ap-south-1.rds.amazonaws.com'),
+    'user': os.getenv('DB_USER', 'admin'),
+    'password': os.getenv('DB_PASSWORD', 'Password@123'),
     'database': os.getenv('DB_NAME', 'app_db'),
     'port': int(os.getenv('DB_PORT', 3306))
 }
